@@ -1,0 +1,43 @@
+*{
+    font-size:30px;
+    font-family: Montserrat, sans-serif;
+    text-align:center;
+    transition: all 0.2s ease-in-out;
+  background:lightblue;
+  }
+  ul,li,a{
+    background:red;
+    font-weight:bold;
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    color:white;
+    align-content:center;
+    text-decoration:none;
+     background:lightgreen
+  }
+  ul li a:hover{
+  border-bottom:5px solid blue;
+  }
+    ul li:hover{
+  border-bottom:5px solid blue;
+  }
+  .contain ul, li, a{
+    background:red;
+    font-weight:bold;
+    list-style:all;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    color:white;
+    align-content:center;
+    text-decoration:none;
+    background:lightgreen;
+  }
+  .navbar li{
+      height:35px;
+  }
+  li{
+      height:100px;
+  }

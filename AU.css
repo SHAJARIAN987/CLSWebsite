@@ -1,0 +1,48 @@
+*{
+    font-size:30px;
+    font-family: Montserrat, sans-serif;
+    text-align:center;
+      transition: all 0.2s ease-in-out;
+  }
+  .navbar ul, li, a{
+    background:red;
+    font-weight:bold;
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    color:white;
+    align-content:center;
+    text-decoration:none;
+     background:lightgreen;
+  }
+  ul li a:hover{
+  border-bottom:5px solid blue;
+  }
+  .HWDTRANS ul, li{
+    background:grey;
+  }
+  .DES{
+    font-size:17px;
+    width:50%;
+    background:lightblue;
+  }
+  .HWD{
+    font-size:17px;
+    width:50%;
+  background:grey;
+  }
+  .HWD li:hover{
+    transform: scale(1.5,1.5);
+  }
+  .HWD li{
+    font-size:17px;
+     height:50px;  
+  }
+  .container1{
+      border:5px solid blue;
+     background:orange;
+    padding:40px;
+     display:flex;
+      flex-direction:row;
+  }

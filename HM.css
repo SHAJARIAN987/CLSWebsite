@@ -1,0 +1,28 @@
+*{
+    font-size:30px;
+    font-family: Montserrat, sans-serif;
+    text-align:center;
+      transition: all 0.2s ease-in-out;
+  }
+  ul,li,a{
+    background:red;
+    font-weight:bold;
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    color:white;
+    align-content:center;
+    text-decoration:none;
+     background:lightgreen
+  }
+  ul li a:hover{
+  border-bottom:5px solid blue;
+  }
+  th{
+    font-size:17px;
+  }
+  p{
+    border:3px solid blue;
+    font-size:17px;
+  }

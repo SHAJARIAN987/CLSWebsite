@@ -1,0 +1,105 @@
+*{
+    font-size:30px;
+    font-family: Montserrat, sans-serif;
+    text-align:center;
+    transition: all 0.2s ease-in-out;
+  }
+  ul,li,a{
+    background:red;
+    font-weight:bold;
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    color:white;
+    align-content:center;
+    text-decoration:none;
+     background:lightgreen
+  }
+  ul li a:hover{
+  border-bottom:5px solid blue;
+  }
+  .container2{
+    background:green;
+    width:100%;
+    height:570px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#40C4FF;
+  }
+  .images{
+    width:70%;
+    height:545px;
+    background:#40C4FF;
+      border:5px solid #3103ff;
+     display:flex;
+      flex-direction:row;
+  }
+  .quotes{
+    width:25%;
+    height:545px;
+    background:lightblue;
+    display:flex;
+      flex-direction:column;
+    border:5px solid #6e726c;
+  }
+  .quote1{
+    font-size:40px;
+    width:100%;
+    height:272px;
+    background:#6e726c;
+  }
+  .quote2{
+    width:50%;
+    height:275px;
+    background:#3103ff;
+    font-size:10px;
+  }
+  .quote3{
+    width:50%;
+    height:275px;
+    background:orange;
+    font-size:20px;
+  }
+  .container3{
+    display:flex;
+    flex-direction:row;
+    }
+  .img1, .img2{
+    height:267px;
+    width:90%;
+  }
+  .img3{
+    width:50%;
+  }
+  .container0{
+    display:column;
+    flex-direction:row;
+  }
+  .img3:hover { 
+   transform: scale(1.2,1.2);
+  }
+  .img1:hover { 
+   transform: scale(1.2,1.2);
+  }
+  .img2:hover { 
+   transform: scale(1.2,1.2);
+  }
+  .quote3:hover { 
+   font-size:35px;
+    color:darkred;
+  }
+  .quote1:hover { 
+   font-size:55px;
+    color:red;
+  }
+  .quote2:hover { 
+  font-size:14px;
+    color:orange;
+  }
+  .Explain{
+    font-size:15px;
+    color:white;
+  }
+  
